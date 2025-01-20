@@ -1,17 +1,19 @@
-
 .square {
   width: 400px;
   height: 400px;
-  background-color: 255, 255, 224;
+  background-color: #ffc0cb; /* Pink color */
 }
+
 .shiny-gold {
-  background-color: 255, 255, 224;
+  background-color: #ffc0cb; /* Pink color */
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(255, 255, 224, 0.8), 0 0 20px rgba(255, 255, 224, 0.6), 0 0 30px rgba(255, 255, 224, 0.4), 0 0 40px rgba(255, 255, 224, 0.2);
+  box-shadow: 0 0 10px rgba(255, 192, 203, 0.8), 0 0 20px rgba(255, 192, 203, 0.6), 0 0 30px rgba(255, 192, 203, 0.4), 0 0 40px rgba(255, 192, 203, 0.2);
 }
+
 p {
   color: gold;
 }
+
 html,body {
   width: 100%;
   height: 100%;
@@ -22,18 +24,16 @@ html,body {
   background: transparent;
   color: rgba(255, 255, 255, 0.25);
   text-align: center;
-  margin: 0;
 }
-.container{
-  width: 100％;
+
+.container {
+  width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
   background-color: transparent;
-
-
-
 }
+
 p {
   letter-spacing: 0.5em;
   display: inline-block;
@@ -46,6 +46,7 @@ p {
   width: 40em;
   margin: 0 0 0 -20em;
 }
+
 p span {
   font: 700 4em/1 "Oswald", sans-serif;
   letter-spacing: 0;
@@ -54,7 +55,7 @@ p span {
   margin: 0 auto;
   text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
   /* Clip Background Image */
-  background: linear-gradient(90deg, rgba(96,35,108,1) 0%, rgba(180,180,51) 48%, rgba(233,178,245,1) 100%);
+  background: linear-gradient(90deg, rgba(96, 35, 108, 1) 0%, rgba(180, 180, 51) 48%, rgba(233, 178, 245, 1) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   /* Animate Background Image */
@@ -73,3 +74,4 @@ p span {
   100% {
     background-position: 100% 50%;
   }
+}
